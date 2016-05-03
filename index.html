@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- IE에서만 -->
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>Title</title>
+
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <script type="text/javascript" src="js/module/jQuery/jquery-1.12.3.min.js"></script>
+</head>
+<body>
+    <div id="totalWrap">
+        <div id="header">
+            <div class="gnbBg"></div>
+            <div class="grap">
+                <div id="mobile">
+                    <h1><a class="mainIr" href="#link">kiost</a></h1>
+                    <a id="mobileMenu" class="mainIr" href="#link">모바일메뉴</a>
+                </div>
+
+                <div id="gnb">
+                    <!--<a href="#link" class="siteMap">사이트맵</a>-->
+                    <ul>
+                        <li><a href="#th1">본원</a></li>
+                        <li><a href="#th1">동해연구소</a></li>
+                        <li><a href="#th1">남해연구소</a></li>
+                        <li><a href="#th1">제주국제해양과학연구·지원센터</a></li>
+                        <li><a href="#th1">울릉도·독도해양과학기지</a></li>
+                        <li><a href="#th1">통영해상과학기지</a></li>
+                    </ul>
+                </div>
+                <div id="mGnb"></div>
+            </div>
+        </div>
+
+
+        <!--AIzaSyCHagWIqq1w64q23CSbYf53j4ojqfAve3o-->
+        <div id="mCntWrap">
+            <!--<div class="ie8Map"></div>-->
+
+            <div class="etcMap">
+                <div id="map"></div>
+            </div>
+            <script type="text/javascript">
+                var map;
+                function initMap() {
+                    map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat:37.285455, lng:126.833874},
+                        zoom: 7
+                    });
+                }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHagWIqq1w64q23CSbYf53j4ojqfAve3o&callback=initMap"></script>
+
+            <div id="list">
+                <figure>
+                    <img src="img/main/sample.jpg" alt="본원">
+                    <figcaption>
+                        <h2><a href="#link">한국해양과학기술원 본원 <span class="mainIr"></span></a></h2>
+                        <ul class="info">
+                            <li><span class="mainIr"></span> 경기도 안산시 상록구 해안로 787</li>
+                            <li><span class="mainIr"></span> 031-400-6000</li>
+                        </ul>
+                        <div class="subScrip">
+                            <span>한국해양과학기술원은 우리나라의 해양과학기술 개발을 선도하는 종합 해양연구기관입니다.</span>
+                            <span>우리나라를 해양 강국으로 만들기 위한 목적으로 1973년 한국과학기술연구원(KIST) 부설 해양개발연구소로 설립되었습니다.</span>
+                            <span>1986년 현 위치인 안산 청사로 이전된 뒤 2001년 한국해양연구원으로 명칭이 변경되었고, 1997년 남해분원, 1999년 대덕분원, 2008년 동해분원이 설치됐으며 2004년 부설 극지연구소가 인천 송도에 생겼습니다.</span>
+                            <span>대덕분원은 조선공학과 해양장비를, 동해분원은 동해와 독도를 연구하는 등 각 분원은 인접한 바다의 특성에 맞는 연구를 진행하기 위해 설립되었습니다.. 2012년 한국해양과학기술원으로 이름을 바꾸었습니다.</span>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div class="grap">
+            <ul class="info">
+                <li class="addr">우) 426-744 경기도 안산시 상록구 해안로 Tel. 031-400-6000 | Fax. 031-408-5820 | E-Mail. kiost@kiost.ac.kr</li>
+                <li class="copy">COPYRIGHT (C) 2016 KIOST ALL RIGHT RESERVED.</li>
+            </ul>
+            <ul class="sns">
+                <li><a class="fb mainIr" href="#link">facebook</a></li>
+                <li><a class="tw mainIr" href="#link">twitter</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+

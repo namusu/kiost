@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+.mainIr{background:url(../img/main/mainIr.png) no-repeat;font-size:0;line-height:0}
+.shipIr{background:url(../img/main/shipIr.png) no-repeat;font-size:0;line-height:0}
+
+#totalWrap{overflow:hidden}
+
+#header .grap #mobile{margin:0 0 10px}
+#header .grap #mobile:after{display:block;clear:both;content:'';}
+#header .grap #mobile h1{float:left;margin:10px 0 0 20px}
+#header .grap #mobile h1 a{display:block;width:150px;height:70px;background-position:0 0;}
+#header .grap #mobile #mobileMenu{display:block;float:right;margin:35px 20px 0 0;width:30px;height:30px;background-position:2px -65px}
+
+#header .gnbBg,
+#header .grap #gnb{display:none}
+
+
+#mCntWrap{position:relative}
+
+#mCntWrap #map{height:767px}
+
+
+#mCntWrap #list{position:absolute;top:0;left:0;padding:0 0 15px;height:100%;background:#fff;z-index:3}
+#mCntWrap #list figure{}
+#mCntWrap #list figure figcaption{}
+#mCntWrap #list figure figcaption h2{}
+#mCntWrap #list figure figcaption h2 a{display:block;position:relative;padding:28px 0 0 20px;height:100px;background:#4175ab;color:#fff;font-size:20px;font-weight:400}
+#mCntWrap #list figure figcaption h2 a span{display:block;position:absolute;top:-32px;right:0;width:70px;height:70px;background-position:-210px 0}
+#mCntWrap #list figure figcaption ul{margin:35px 0 25px;padding:0 0 25px;border-bottom:1px solid #ddd}
+#mCntWrap #list figure figcaption ul li{}
+#mCntWrap #list figure figcaption ul li:first-child{margin:0 0 15px;}
+#mCntWrap #list figure figcaption ul li span{display:inline-block;margin:-4px 5px 0 18px;width:20px;height:27px;background-position:-35px -105px;vertical-align:middle}
+#mCntWrap #list figure figcaption ul li:first-child span{margin:-12px 5px 0 18px;background-position:0 -105px;}
+#mCntWrap #list figure figcaption .subScrip{margin:0 18px;padding:0 0 20px}
+#mCntWrap #list figure figcaption .subScrip span{display:block;margin:0 0 3px}
+
+
+#footer{display:none}
+
+
+
+
+@media all and (min-width:1024px){
+#totalWrap{padding:90px 0 0}
+
+#header{position:absolute;top:0;left:0;width:100%;z-index:4}
+
+#header .gnbBg{display:block;position:absolute;bottom:0;left:0;width:100%;height:55px;background:#000;opacity:0.7}
+
+#header .grap{position:relative;margin:0 auto;width:1024px;}
+#header .grap #mobile h1{margin-left:29px}
+#header .grap #mobile #mobileMenu{display:none}
+
+
+
+#header .grap #gnb{display:block;position:relative;z-index:2}
+#header .grap #gnb ul{}
+#header .grap #gnb ul:after{display:block;clear:both;content:'';}
+#header .grap #gnb ul li{float:left}
+#header .grap #gnb ul li a{display:block;padding:0 29px;height:55px;color:#fff;font-size:17px;line-height:57px;}
+
+#header .grap #mGnb{display:none}
+
+#mCntWrap{overflow:hidden}
+
+
+#mCntWrap #list{width:454px;box-shadow:1px 0 10px 1px #333}
+
+#footer{display:block;overflow:hidden;height:105px;background:#24272c}
+#footer .grap{margin:30px auto 0;width:1015px;color:#919598}
+#footer .grap:after{display:block;clear:both;content:'';}
+#footer .grap .info{float:left}
+#footer .grap .info li{font-size:13px}
+#footer .grap .info li:first-child{font-size:14px}
+#footer .grap .sns{float:right}
+#footer .grap .sns li{display:inline-block;vertical-align:middle}
+#footer .grap .sns li:first-child{margin-right:15px}
+#footer .grap .sns li a{display:block;width:42px;height:42px}
+#footer .grap .sns li a.fb{background-position:-280px -140px}
+#footer .grap .sns li a.tw{background-position:-280px -70px}
+}
+
+
+
+
+@media all and (min-width:1240px){
+#header .grap{width:1240px}
+#header .grap #gnb ul li a{padding:0 47px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*배*/
+#cntWrap.ship{margin:75px 0 0;}
+#cntWrap .visualWrap{position:relative;height:530px}
+#cntWrap .visualWrap .grap{position:absolute;top:0;left:50%;margin-left:-585px;width:2440px}
+#cntWrap .visualWrap .grap:after{display:block;clear:both:content:'';}
+#cntWrap .visualWrap .grap .shipSide,
+#cntWrap .visualWrap .grap .shipUp{float:left;width:1170px;height:520px;background:url(../img/main/ship_isabu.jpg) no-repeat 50% 0}
+#cntWrap .visualWrap .grap .shipSide{margin-right:100px}
+#cntWrap .visualWrap .grap .shipSide ul{}
+#cntWrap .visualWrap .grap .shipSide ul li{}
+#cntWrap .visualWrap .grap .shipSide ul li a{}
+
+#navigation { position: relative; width: 100%; min-height: 103px; height: auto; background-color: #4175ab; }
+#navigation .frame { position: relative; padding: 20px 20px 15px; width: 100%; height: 100%; }
+#navigation .btn-back { display: block; position: absolute; top: -30px; right: 10px; width: 70px; height: 70px; background-image: url(../img/btn_back.png); background-repeat: no-repeat;font-size:0;line-height:0 }
+#navigation #navi { width: 100%; font-size: 20px; color: #fff;  line-height: 100%; }
+#navigation #navi a { display: none; width: 100%; font-size: 20px; color: inherit; line-height: inherit; }
+#navigation #navi a.on { display: block; }
+#navigation #navi a:before { content: ">"; display: none; margin: 0 5px; font-size: inherit; color: inherit; }
+#navigation #navi a:first-child:before { display: none; }
+#navigation #sed_menu { display: block; margin-top: 25px; font-size: 16px; color: rgba(255, 255, 255, .7); text-align: right; line-height: 100%; }
+#navigation #sed_menu a { font-size: inherit; color: #fff; letter-spacing: -1px; line-height: inherit; opacity: .7; transition: opacity .3s; }
+#navigation #sed_menu a:hover,
+#navigation #sed_menu a.on { opacity: 1; }
+
+
+#cntWrap .content{}
+
+@media all and (min-width:1024px) {
+    #navigation .frame { padding: 30px 50px 30px 120px; }
+    #navigation .btn-back { right: auto; left: 20px; }
+    #navigation #sed_menu { margin-top: 0; }
+}
+
+@media all and (min-width:1240px){
+    #navigation .frame { margin: 0 auto; width: 1240px; padding: 30px 30px 30px 100px; }
+}
+

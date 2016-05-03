@@ -1,0 +1,224 @@
+{
+  "0101": [
+    {
+      "menu_cd": "010101",
+      "name": "본관동",
+      "content": "원장, 감사(부), 제1부원장, 제2부원장, 해양정책연구소, 국제협력부, 미래인재양성본부, 학사행정실, 기획부, 기획팀, 예산팀, 홍보팀, 경영지원본부, 행정부, 인사팀, 인재개발팀, 총무팀, 재무팀, 구매팀, 시설관리부, 시설운영팀, 안전팀, 전산팀, 연구사업부, 성과확산센터, 연구개발팀, 기관사업팀, 수탁사업팀, 회의실(온누리회의실, 이사부회의실)",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010102",
+      "name": "제1연구동",
+      "content": "화학연구본부, 생물연구본부, 연안공학연구본부, 해양정책연구소, 통영해상과학기지, 태평양해양과학기지",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010103",
+      "name": "제2연구동",
+      "content": "물리연구본부, 연안공학연구본부, 지질·지구물리연구본부, 심해저광물자원연구센터, 연안재해·재난연구센터, 해양환경방사능연구센터",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010104",
+      "name": "제3연구동",
+      "content": "물리연구본부, 지질·지구물리연구본부, 화학연구본부, 해외생물자원연구센터, 특정해역보전관리연구센터, 관할해역지질연구센터, 해양방위연구센터, 해양환경방사능연구센터, 해외생물자원연구센터, IOC의장실",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010105",
+      "name": "제4연구동",
+      "content": "화학연구본부, 생물연구본부, 특정해역보전관리연구센터, 해양관측자료실",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010106",
+      "name": "제5연구동",
+      "content": "해양환경·보전연구부, 해양순환·기후연구부, 연안공학연구본부, 해양정책연구소, 연안재해·재난연구센터",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010107",
+      "name": "제 1 실험동 (지원창고동)",
+      "content": "해양관측·자료실",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010108",
+      "name": "제 2 실험동 (구 중앙창고)",
+      "content": "연안공학연구본부, 심해저광물자원연구센터",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010109",
+      "name": "제 3 실험동 (수조실험실)",
+      "content": "생물연구본부",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010110",
+      "name": "제 4 실험동 (간이실험동)",
+      "content": "생물연구본부",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010111",
+      "name": "제5동 시험실(기장비보관동)",
+      "content": "해양위성연구센터, 해양정책연구소, 해양방위연구센터, 해양과학도서관",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010112",
+      "name": "제6동 실험실(해양환경모의실험장)",
+      "content": "모의실험장",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010113",
+      "name": "제7동 실험실(미세조류 바이오연료 실증실험장)",
+      "content": "미세조류 바이오연료 실증실험장",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010114",
+      "name": "홍보관 (KORDIUM)",
+      "content": "해양과학체험전시관 (KORDIUM)",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010115",
+      "name": "후생관",
+      "content": "식당, 매점(소담터), 노동조합(해양지부), 회의실(춘봉, 서해, 해정)",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    },
+    {
+      "menu_cd": "010116",
+      "name": "기계설비동",
+      "content": "총무팀",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    }
+  ],
+  "0201": [
+    {
+      "menu_cd": "020101",
+      "name": "홍보관 (KORDIUM)",
+      "content": "해양과학체험전시관 (KORDIUM)",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    }
+  ],
+  "0301": [
+    {
+      "menu_cd": "030101",
+      "name": "홍보관 (KORDIUM)",
+      "content": "해양과학체험전시관 (KORDIUM)",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    }
+  ],
+  "0401": [
+    {
+      "menu_cd": "040101",
+      "name": "홍보관 (KORDIUM)",
+      "content": "해양과학체험전시관 (KORDIUM)",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    }
+  ],
+  "0501": [
+    {
+      "menu_cd": "050101",
+      "name": "홍보관 (KORDIUM)",
+      "content": "해양과학체험전시관 (KORDIUM)",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    }
+  ],
+  "0601": [
+    {
+      "menu_cd": "060101",
+      "name": "홍보관 (KORDIUM)",
+      "content": "해양과학체험전시관 (KORDIUM)",
+      "image": "sample1.jpg",
+      "panorama": {
+        "vr": "",
+        "sky": ""
+      }
+    }
+  ]
+}
