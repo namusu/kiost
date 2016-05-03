@@ -4,7 +4,7 @@
 
 
 /* MSIE 9이하 버전체크 */
-function ms_ver(){
+function ms_ver(){ 
     if(navigator.userAgent.match('MSIE')){
         var msie = navigator.userAgent;
         var ms_ver = msie.substr(msie.lastIndexOf('MSIE')).split('MSIE')[1];
